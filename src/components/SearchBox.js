@@ -14,7 +14,7 @@ function SearchBox() {
     const handleSubmit = (e) => {
         e.preventDefault()
         if(!term.trim()) return
-        // router.push(`/search/web?searchTerm=${term}`)
+        router.push(`/search/web?searchTerm=${term}`)
     }
 
   return (
