@@ -17,8 +17,8 @@ export default function SearchHeaderOptions() {
 
   return (
     <div className='flex space-x-2 select-none
-    border-b-1 w-full justify-center lg:justify-start
-    lg:pl-54 text-gray-700 text-sm'>
+    border-b w-full justify-center lg:justify-start
+    lg:pl-52 text-gray-700 text-sm'>
       <div onClick={() => selectTab('All')} 
       className={`flex items-center space-x-1
       border-b-4 border-transparent active:text-blue-50
