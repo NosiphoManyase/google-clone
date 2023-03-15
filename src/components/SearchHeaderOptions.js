@@ -10,6 +10,7 @@ export default function SearchHeaderOptions() {
   const searchTerm = searchParams.get('searchTerm')
 
   const selectTab = (tab) => {
+    console.log('clicked')
     router.push(`/search/${tab === 'Images'? 
     'image': 'web'}?searchTerm=${searchTerm}`)
     
